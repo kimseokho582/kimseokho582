@@ -13,7 +13,6 @@ I wanna be a Front-End Developer
 ````dart
 class Developer {
   final String name;
-  final String pronouns;
   final List<String> code;
   final List<String> tools;
   final List<String> os;
@@ -22,7 +21,6 @@ class Developer {
 
   const Developer({
     required this.name,
-    required this.pronouns,
     required this.code,
     required this.tools,
     required this.os,
@@ -34,7 +32,6 @@ class Developer {
 void main() {
   Developer seokHo = Developer(
     name: "seokho",
-    pronouns: "he/him",
     code: ["Dart", "Javascript", "Typescript", "HTML", "CSS", "C++"],
     tools: ["Flutter", "React", "ReactNative", "Redux", "Styled-Components"],
     os: ["Windows", "MacOs"],
